@@ -1,0 +1,98 @@
+
+body{
+        margin: 0;
+        padding: 0;
+        background-image: url(./bglogin.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+form{
+    height: 650px;
+    width: 500px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    background-origin: flex;
+    margin-top: 50px;
+    margin-left: 500px;
+    border-radius: 10px;
+    transform: translate(0%,-5%);
+    padding: 25px;
+}
+
+
+form h2{
+    width: 483px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    padding: 8px;
+}
+form input{
+    width: 490px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+    font-family: sans-serif;
+    padding:10px;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+form input:focus{
+    outline: none;
+}
+ h4{
+    color: white;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ 
+ }
+ form h4 a{
+    color: burlywood;
+ }
+
+ .btnn{
+    width: 240px;
+    height: 40px;
+   background-color: #ff7200;
+    border:none;
+    margin-top:10px;
+    font-size:18px;
+    border-radius: 10px;
+    cursor:pointer;
+    color:black;
+    transition:0.4s ease;
+}
+
+#btnn1:hover{
+    background-color: green;
+
+}
+#btnn2:hover{
+    background-color: red;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.formerror{
+    color: red;
+}
+
