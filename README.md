@@ -12,6 +12,7 @@ This is a simple <b>footsal booking project</b>.
 
 + Clone this project into <b>htdocs</b>.<br>
      > "C:/Xampp/htdocs" if you are using XAMPP.
+ + Create a folder "uploads"
 
 + Now start your apache and mysql server and go to localhost/&lt;your-url&gt; in your browser.
 
