@@ -23,7 +23,7 @@
   include("includes/userloginrequired.php");
   ?>
 
-  <form action="book?id=6" method="post" style="color:white!important;">
+  <form action="book?id=<?php echo $_GET['id'] ?>" method="post" style="color:white!important;">
 
     <div class="date">
       Date:<input type="date" name="date" value="" required style="width:100%;padding:12px;">

@@ -112,6 +112,10 @@ include("../includes/adminLoginrequired.php");
 
         }
         $getCompany = $con->query("SELECT * FROM footsal.companies WHERE id='$companyId' ");
+        $companyName = "Deleted";
+            $companyLocation = "Deleted";
+            $companyimage = "Deleted";
+            $price = "Deleted";
         while ($company = mysqli_fetch_object($getCompany)) {
             $companyName = $company->name;
             $companyLocation = $company->location;
